@@ -1,0 +1,51 @@
+{
+    "name": "trello-clone",
+    "version": "1.0.0",
+    "description": "Trello clone using react and firebase",
+    "main": "index.js",
+    "scripts": {
+        "serve": "live-server public/",
+        "build:dev": "webpack --env development",
+        "build:prod": "webpack -p --env production",
+        "dev": "webpack-dev-server --env development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Phanender/trello-clone.git"
+    },
+    "keywords": [
+        "react",
+        "firebase",
+        "redux"
+    ],
+    "author": "Phanender Reddy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Phanender/trello-clone/issues"
+    },
+    "homepage": "https://github.com/Phanender/trello-clone#readme",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^8.2.3",
+        "babel-loader": "^7.1.4",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.3.0",
+        "uuid": "^3.2.1",
+        "webpack": "^4.10.2"
+    },
+    "devDependencies": {
+        "webpack-bundle-analyzer": "^2.13.1",
+        "webpack-cli": "^2.1.4",
+        "webpack-dashboard": "^2.0.0",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
